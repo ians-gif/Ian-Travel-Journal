@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Travel Journal - Ian</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #f8f9fa, #e3f2fd);
+      color: #333;
+    }
+    header {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #0d47a1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .countries {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .country {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      transition: 0.3s;
+      overflow: hidden;
+    }
+    .country:hover {
+      transform: scale(1.05);
+    }
+    .country img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .country h3 {
+      text-align: center;
+      padding: 15px;
+      margin: 0;
+      color: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Travel Journal </h1>
+    <p>Countries around the world</p>
+  </header>
+
+  <section class="countries">
+    <a href="japan.html" class="country">
+      <img src="https://career-advice.jobs.ac.uk/wp-content/uploads/Japan-e1634207070862-1170x630.jpg.optimal.jpg" alt="Japan">
+      <h3>Japan</h3>
+    </a>
+    <a href="Switzerland.html" class="country">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmLgsrPXWGi3XUpqZeAEuij6fM_jRrv3p3lg&s" alt="Switzerland">
+      <h3>Switzerland</h3>
+    </a>
+    <a href="Germany.html" class="country">
+      <img src="https://res.cloudinary.com/worldpackers/image/upload/c_limit,f_auto,q_auto,w_1140/uiphnwgb2zxjzddjs3pw" alt="Korea">
+      <h3>Germany</h3>
+    </a>
+  </section>
+</body>
+</html>
